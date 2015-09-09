@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+# 登入/登出
+gem "devise"
+# Helper
 gem 'simple_form'
 # 前端套件Bootstrap
 gem 'bootstrap-sass'
