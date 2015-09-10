@@ -7,3 +7,6 @@ Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_EN
 2.delete test.sqlite3
 3.delete /db/migrate/XXXXXXX_add_name_to_user.rb
 4.bundle exec rake db:migrate
+
+Post.all
+Post.find(1).delete
