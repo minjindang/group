@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# 中斷點套件
+gem "pry"
 # 登入/登出
 gem "devise"
 # Helper
