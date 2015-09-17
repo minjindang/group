@@ -25,9 +25,10 @@ test:
 #   database: db/production.sqlite3
 
 production:
-  adapter: mysql2
-  encoding: utf8
+  adapter: postgresql
+  encoding: unicode
   database: group
+  pool: 5
   username: root
   password: 
   # host: 127.0.0.1
