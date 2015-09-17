@@ -10,3 +10,5 @@ Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_EN
 
 Post.all
 Post.find(1).delete
+
+heroku login
