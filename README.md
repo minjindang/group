@@ -12,3 +12,7 @@ Post.all
 Post.find(1).delete
 
 heroku login
+
+git config --list | grep heroku
+
+heroku run rake db:migrate
