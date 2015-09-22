@@ -2,6 +2,8 @@ Cloud9 Server - https://group-willycode.c9.io
 
 kill -9 $(lsof -i tcp:3000 -t) # 找出3000 port並砍掉process
 
+rake rails:update:bin  #Server can not open and not kill process
+
 Migrations are pending. To resolve this issue, run: bin/rake db:migrate RAILS_ENV=development
 1.delete development.sqlite3
 2.delete test.sqlite3
@@ -14,5 +16,5 @@ Post.find(1).delete
 heroku login
 
 git config --list | grep heroku
-
+heroku git:remote -a group-willycode
 heroku run rake db:migrate
